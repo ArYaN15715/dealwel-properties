@@ -1,0 +1,27 @@
+{
+  "overview": "Dealwel Properties is a high-conversion real estate website with a corporate premium design. Features immersive mobile-first shuttle animations, split-layout hero, featured property listings, trust section, investment focus, testimonials, and multi-channel contact zone. Built with Deep Teal and Dark Green brand identity — authoritative, alive, and conversion-focused.",
+  "features": [
+    "Animated hero with split layout, dual CTAs, and search bar (Location, Budget, Type)",
+    "Featured property listings grid with hover-lift effects and verified badges",
+    "Why Dealwel trust section with 4 value cards and animated stats bar",
+    "Investment section with ROI messaging, market metrics, and animated progress bars",
+    "Property experience section with virtual tours, neighborhood intel, and ROI calculator cards",
+    "Testimonials with social proof and star ratings",
+    "Final CTA zone with Call, WhatsApp, and Book Consultation options",
+    "Sticky mobile bottom bar with quick-action CTAs",
+    "Shuttle (subtle) scroll-triggered animations throughout for immersive mobile experience",
+    "Scroll-aware navbar transitioning from transparent to white with shadow"
+  ],
+  "category": "real-estate",
+  "tags": [
+    "real-estate",
+    "property",
+    "landing-page",
+    "mobile-first",
+    "animations",
+    "conversion",
+    "dealwel",
+    "nigeria"
+  ],
+  "last_updated": "2026-04-15T10:48:56.591Z"
+}

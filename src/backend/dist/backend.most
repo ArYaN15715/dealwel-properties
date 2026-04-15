@@ -1,0 +1,21 @@
+// Version: 1.0.0
+type Lead__464208013 =
+  {
+    email : Text;
+    id : Nat;
+    message : Text;
+    name : Text;
+    phone : Text;
+    propertyInterest : Text;
+    submittedAt : Int
+  };
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+actor {
+  stable leads :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?Lead__464208013]];
+      var elementIndex : Nat__490723111
+    }
+};

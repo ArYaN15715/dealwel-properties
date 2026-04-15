@@ -1,0 +1,30 @@
+type Testimonial = 
+ record {
+   avatarUrl: text;
+   id: nat;
+   name: text;
+   quote: text;
+   role: text;
+ };
+type Property = 
+ record {
+   area: nat;
+   badge: opt text;
+   bathrooms: nat;
+   bedrooms: nat;
+   description: text;
+   id: nat;
+   imageUrl: text;
+   location: text;
+   price: nat;
+   propertyType: text;
+   title: text;
+ };
+service : {
+  getFeaturedProperties: () -> (vec Property) query;
+  getTestimonials: () -> (vec Testimonial) query;
+  searchProperties: (location: text, maxPrice: nat, propertyType: text) ->
+   (vec Property) query;
+  submitLead: (name: text, email: text, phone: text, message: text,
+   propertyInterest: text) -> (bool);
+}
